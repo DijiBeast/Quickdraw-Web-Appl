@@ -1,0 +1,58 @@
+body
+{
+    text-align: center;
+    background-color: red;
+}
+
+h1
+{
+    color: black;
+    background: yellow;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: solid yellow 10px;
+    border-radius: 10px;
+    animation-name: canvas-animation;
+    animation-duration: 5s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+    background: white;
+}
+
+@keyframes canvas-animation
+{
+    from{box-shadow: 2px 2px 40px blue;}
+    to{box-shadow: 2px 2px 40px green;}
+}
+
+p
+{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#score
+{
+    font-size: 40px;
+    margin-left: 20px;
+    float: left;
+}
+
+#timer
+{
+    font-size: 40px;
+    margin-right: 20px;
+    float: right;
+}
+
+#random_sketch 
+{
+    font-size: 30px;
+}
